@@ -1,0 +1,11 @@
+Find the largest number in an array
+      class Algorithm {
+
+    static int findLargest(int[] numbers) {
+        // This is a sample implementation to test your validators
+        return Arrays.stream(numbers).reduce(Integer::max).getAsInt();
+    }
+
+}
+--------------------------------------------------------------
+
